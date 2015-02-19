@@ -1,0 +1,22 @@
+{
+  "name": "inuit-hide-responsive",
+  "version": "0.1",
+  "authors": [
+    "Harry Roberts <harry@csswizardry.com>",
+    "Marius Hauken <marius.hauken@gmail.com>"
+  ],
+  "description": "Responsively controlled hide classes for the inuitcss framework",
+  "main": "_trumps.hide-responsive.scss",
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css",
+    "rwd"
+  ],
+  "license": "Apache 2",
+  "dependencies": {
+    "inuit-defaults": "~0.2.1",
+    "inuit-responsive-settings": "~0.1.2",
+    "inuit-responsive-tools": "~0.1.1"
+  }
+}
