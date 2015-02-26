@@ -9,8 +9,10 @@
 
     $alias:     nth($breakpoint, 1);
 
-    @include media-query($alias) {
-        .#{$inuit-widths-namespace}#{$alias}-hide     { display: none !important; }
+    @if ($alias != "retina") {
+        @include media-query($alias) {
+            .#{$inuit-widths-namespace}#{$alias}-hide     { display: none !important; }
+        }
     }
 
 }
